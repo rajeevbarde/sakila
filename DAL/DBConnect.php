@@ -1,4 +1,8 @@
 <?php
+
+namespace DAL;
+use \PDO;
+
 class DBConnect
 {
 	private $host;
@@ -10,7 +14,7 @@ class DBConnect
 	
 	public function __construct($_host='localhost',$_dbname='sakila',$_username='root',$_password='')
 	{
-		echo "<b>inside DBConnect constructor</b>";
+		//echo "<b>inside DBConnect constructor</b>";
 		
 		$this->host = $_host;
 		$this->dbname = $_dbname;
@@ -27,7 +31,7 @@ class DBConnect
 	public function __destruct()
 	{
 			unset($this->DBObj);
-			echo "<b>inside DBConnect destructor</b>";
+			//echo "<b>inside DBConnect destructor</b>";
 	}
 }//setting
 

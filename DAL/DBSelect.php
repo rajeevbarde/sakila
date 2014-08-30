@@ -1,4 +1,7 @@
 <?php
+namespace DAL;
+use \PDO;
+
 class DBSelect
 {
 	private $resultSet;

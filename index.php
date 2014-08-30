@@ -1,11 +1,8 @@
 <?php
-function MyAutoload($className){
-include_once('DAL/'.$className . '.php');
-}
-spl_autoload_register('MyAutoload');
+require_once("comman/ClassAutoLoader.php");
 
-$test = new DBSelect('select * from actor');
-$test1 = new DBSelect('select * from film');
+$test = new DAL\DBSelect('select * from actor');
+$test1 = new DAL\DBSelect('select * from film');
 
 echo "<pre>";
 print_r($test->getRS());
