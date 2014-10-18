@@ -2,10 +2,13 @@ STEPS DONE :-
 
 1. Found Sakila  Database and implemented - Done
 2. Researched on DAL and implemented (basic) -Done
-3. Create Admin page having - product,customer,operations
+3. Create Admin page having - product,customer,operations - Done
 4. LightTPD redirect research - Done
-5. Vanity URL and menus - done
-6. Class Autoloader - done
+5. Vanity URL and menus - Done
+6. Class Autoloader - Done
+7. Fix abosolute URL - Done
+7. CRUD on admin page - 
+8. business reports - 
 
 TO RESEARCH :-
 1. PSR-0

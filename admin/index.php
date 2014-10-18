@@ -1,5 +1,5 @@
 <?php
-require_once("../comman/ClassAutoLoader.php");
+require_once($_SERVER['DOCUMENT_ROOT']."sakila/comman/ClassAutoLoader.php");
 ?>
 <html>
 <head>

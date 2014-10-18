@@ -1,14 +1,11 @@
 <?php
-require_once("../comman/ClassAutoLoader.php");
+require_once($_SERVER['DOCUMENT_ROOT']."sakila/comman/ClassAutoLoader.php");
 
 $films = new DAL\DBSelect('select * from film');
 ?>
 <html>
 <head>
-<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="//cdn.datatables.net/1.10.2/js/jquery.dataTables.min.js"></script>
-<link rel="stylesheet" href="//cdn.datatables.net/1.10.2/css/jquery.dataTables.css">
+<?= comman\pageEntities::headerIncludes() ?>
 <script>
 $(document).ready(function() {
     $('#filmsTable').dataTable();
