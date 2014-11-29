@@ -11,7 +11,7 @@ public static function getSideMenu()
 	echo "<a href='".$includepath."index.php'><b>Home</b></a>";
 	echo "<a href='".$includepath."admin/movies.php'><b>Movies</b></a>";
 	echo "<a href='".$includepath."admin/films.php'>Films</a>";
-	echo "<a href='".$includepath."admin/actors/actors.php'>Actors</a>";
+	echo "<a href='".$includepath."admin/actors.php'>Actors</a>";
 	echo "<a href='".$includepath."admin/categories.php'>Categories</a>";
 	echo "<a href='".$includepath."admin/language.php'>Language</a>";
 	echo "<br>";
